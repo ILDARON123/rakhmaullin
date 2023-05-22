@@ -1,0 +1,76 @@
+/* Общий */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+/* Карточки */
+
+.cards{
+    width: 90vw;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20%;
+}
+.img-container{
+    width: 90%;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Форма */
+
+.container{
+    width: 30%;
+    margin: 0 auto;
+}
+form{
+    text-align: center;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.ig-radio{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sub-btn{
+    margin: 0 auto;
+}
+/* Управление */
+.trener-icon{
+    width: 25vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-del, .btn-edit{
+    width: 30px;
+    height: 30px;
+}
+.btn-edit{
+    border: 1px solid orange;
+    color:orange;
+}
+
+.btn-del{
+    border: 1px solid red;
+    color:red;
+}
+.form-edit{
+    justify-content: space-around;
+}
+/*  */
